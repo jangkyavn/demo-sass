@@ -1,25 +1,30 @@
-.main {
-    color: blue;
-    width: 100%;
-}
-
-.main .main-content {
+.container {
+  margin-top: 5em; }
+  .container .parent-box {
+    margin: 0px auto;
+    width: 1000px;
+    height: 400px;
     background-color: red;
-    color: black;
-}
-
-.main .main-content a {
-    font-weight: bold;
-}
-
-.main .main-content a:hover {
-    color: white;
-}
-
-.main .main-info {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    font-weight: bold;
-}
+    padding: 5em; }
+    .container .parent-box .cbox1 {
+      background-color: yellow;
+      height: 250px;
+      padding-top: 5em; }
+      .container .parent-box .cbox1 .ccbox1 {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin: 0px auto; }
+    .container .parent-box .cbox2 {
+      background-color: blue;
+      height: 250px;
+      padding-top: 5em; }
+      .container .parent-box .cbox2 .ccbox2 {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin: 0px auto; }
 
 /*# sourceMappingURL=style.css.map */
