@@ -14,7 +14,7 @@
         background-color: blue;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
+        border-radius: 100px 50px;
         margin: 0px auto; }
     .container .parent-box .cbox2 {
       background-color: blue;
@@ -24,7 +24,7 @@
         background-color: yellow;
         width: 100px;
         height: 100px;
-        border-radius: 50px;
+        border-radius: 50px 100px;
         margin: 0px auto; }
 
 /*# sourceMappingURL=style.css.map */

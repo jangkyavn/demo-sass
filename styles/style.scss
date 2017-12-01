@@ -1,5 +1,6 @@
-$blueColor: blue;
-$yellowColor: yellow;
+@mixin borderRadius($param1, $param2) {
+    border-radius: $param1 $param2;
+}
 
 .container {
     margin-top: 5em;
@@ -11,26 +12,26 @@ $yellowColor: yellow;
         padding: 5em;
 
         .cbox1 {
-            background-color: $yellowColor;
+            background-color: yellow;
             height: 250px;
             padding-top: 5em;
             .ccbox1 {
-                background-color: $blueColor;
+                background-color: blue;
                 width: 100px;
                 height: 100px;
-                border-radius: 50px;
+                @include borderRadius(100px, 50px);
                 margin: 0px auto;
             }
         }
         .cbox2 {
-            background-color: $blueColor;
+            background-color: blue;
             height: 250px;
             padding-top: 5em;
             .ccbox2 {
-                background-color: $yellowColor;
+                background-color: yellow;
                 width: 100px;
                 height: 100px;
-                border-radius: 50px;
+                @include borderRadius(50px, 100px);
                 margin: 0px auto;
             }
         }
