@@ -1,5 +1,13 @@
-@mixin borderRadius($param1, $param2) {
-    border-radius: $param1 $param2;
+.cbox {
+    height: 250px;
+    padding-top: 5em;
+}
+
+.ccbox {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0px auto;
 }
 
 .container {
@@ -13,26 +21,18 @@
 
         .cbox1 {
             background-color: yellow;
-            height: 250px;
-            padding-top: 5em;
+            @extend .cbox;
             .ccbox1 {
                 background-color: blue;
-                width: 100px;
-                height: 100px;
-                @include borderRadius(100px, 50px);
-                margin: 0px auto;
+                @extend .ccbox;
             }
         }
         .cbox2 {
             background-color: blue;
-            height: 250px;
-            padding-top: 5em;
+            @extend .cbox;
             .ccbox2 {
                 background-color: yellow;
-                width: 100px;
-                height: 100px;
-                @include borderRadius(50px, 100px);
-                margin: 0px auto;
+                @extend .ccbox;
             }
         }
     }
