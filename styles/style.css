@@ -1,0 +1,25 @@
+.main {
+    color: blue;
+    width: 100%;
+}
+
+.main .main-content {
+    background-color: red;
+    color: black;
+}
+
+.main .main-content a {
+    font-weight: bold;
+}
+
+.main .main-content a:hover {
+    color: white;
+}
+
+.main .main-info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
