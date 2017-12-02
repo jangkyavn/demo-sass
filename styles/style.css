@@ -1,8 +1,8 @@
-.cbox, .container .parent-box .cbox1, .container .parent-box .cbox2 {
+.container .parent-box .cbox1, .container .parent-box .cbox2 {
   height: 250px;
   padding-top: 5em; }
 
-.ccbox, .container .parent-box .cbox1 .ccbox1, .container .parent-box .cbox2 .ccbox2 {
+.container .parent-box .cbox1 .ccbox1, .container .parent-box .cbox2 .ccbox2 {
   width: 100px;
   height: 100px;
   border-radius: 50px;
