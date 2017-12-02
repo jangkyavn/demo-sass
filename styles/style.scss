@@ -1,18 +1,22 @@
+$bc: background-color;
+$mt: margin-top;
+$pt: padding-top;
+
 .container {
-    margin-top: 5em;
+    #{$mt}: 5em;
     .parent-box {
         margin: 0px auto;
         width: 1000px;
         height: 400px;
-        background-color: red;
+        #{$bc}: red;
         padding: 5em;
 
         .cbox1 {
-            background-color: yellow;
+            #{$bc}: yellow;
             height: 250px;
-            padding-top: 5em;
+            #{$pt}: 5em;
             .ccbox1 {
-                background-color: blue;
+                #{$bc}: blue;
                 width: 100px;
                 height: 100px;
                 border-radius: 50px;
@@ -20,11 +24,11 @@
             }
         }
         .cbox2 {
-            background-color: blue;
+            #{$bc}: blue;
             height: 250px;
-            padding-top: 5em;
+            #{$pt}: 5em;
             .ccbox2 {
-                background-color: yellow;
+                #{$bc}: yellow;
                 width: 100px;
                 height: 100px;
                 border-radius: 50px;
